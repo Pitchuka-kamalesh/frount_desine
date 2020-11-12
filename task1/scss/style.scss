@@ -1,0 +1,95 @@
+@import"_palette";
+@import"_font";
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+     background-color: $dim-gray; //nav background color 
+     height: min-content;
+
+     
+     
+}
+
+.navbar{
+    .navbar-brand{
+        font-family:$logo;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 34px;  
+        color: $magnolia;
+    }
+    .nav{
+        .nav-item{
+            text-decoration: none;
+            margin-right: 10px;
+
+        }
+        .nav-link{
+            font-family: $atag;
+            font-weight: 500;
+            font-size: 20px;
+            color : $magnolia;
+        }
+        .dropdown-menu{
+            .dropdown-item{
+                font-family: $atag;
+                font-weight: 500;
+                font-size: 18px;
+                text-align: left;
+
+            }
+            .dropdown-item:hover{
+                background-color: $dim-gray;
+                
+                color:$magnolia;
+                //background-color: $magnolia;
+            }
+        }
+    }
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    //background-color: $dim-gray;
+    background-color: $languid-lavender;
+   color: $dim-gray;
+}
+.dat:hover{
+    background-image: url(../Vector1.svg);
+    background-position: top right;
+    background-repeat: no-repeat
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: $text;
+}
+p{
+    font-family: $imp;
+
+}
+
+.btn-primary,.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    color: $magnolia !important;
+    background-color: $dim-gray !important;
+    border-color: $languid-lavender !important;
+    font-family: $atag;
+}
+
+.less{
+    display: flex;
+    flex-direction: row;
+    .col{
+        .card{
+            margin-bottom: 20px;
+        }
+    }
+
+
+}
+.fa{
+    float: right;
+    font-size: 25px;
+    line-height: 2;
+}
+.card{
+    background-color: $silver-pink;
+}

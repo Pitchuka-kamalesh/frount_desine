@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Recursive:wght@400&family=Roboto:wght@500&display=swap");
+/* Coolors Exported Palette - https://coolors.co/ffcdb2-ffb4a2-e5989b-b5838d-6d6875 */
+/* SCSS HEX */
+/* SCSS Gradient */
+section div div a {
+  font-family: "Roboto", sans-serif;
+}
+
+section div table thead {
+  background-color: #636963;
+  color: whitesmoke;
+}
+
+section div table thead tr th {
+  font-family: "Recursive", sans-serif;
+}
+
+section div table tbody tr td {
+  font-family: "Poppins", sans-serif;
+}
+
+section div table tbody tr td .btn {
+  font-family: "Roboto", sans-serif;
+}
+
+section div form div label {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
+  color: whitesmoke !important;
+  font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,47 @@
+@import "_font";
+@import "_palette";
+
+section{
+    div{
+        div{
+            a{
+                font-family: $atag;
+            }
+        }
+        table{
+            thead{
+                background-color: $dim-gray;
+                color: whitesmoke;
+                tr{
+                    th{
+                        font-family: $imp;
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    td{
+                        font-family: $text;
+                        .btn{
+                            font-family: $atag;
+                            
+                        }
+                    }
+                }
+            }
+
+        }
+        form{
+            div{
+                label{
+                    font-family: $text;
+                }
+                
+            }
+        }
+    }
+}
+.btn-warning,.btn-warning:hover, .btn-warning:active, .btn-warning:visited {
+    color: whitesmoke !important;
+    font-family: $atag;
+}

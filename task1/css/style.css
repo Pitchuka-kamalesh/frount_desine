@@ -1,0 +1,90 @@
+/* Coolors Exported Palette - https://coolors.co/ffcdb2-ffb4a2-e5989b-b5838d-6d6875 */
+/* SCSS HEX */
+/* SCSS Gradient */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Recursive:wght@400&family=Roboto:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #636963;
+  height: min-content;
+}
+
+.navbar .navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 34px;
+  color: #eae3ed;
+}
+
+.navbar .nav .nav-item {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.navbar .nav .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #eae3ed;
+}
+
+.navbar .nav .dropdown-menu .dropdown-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+}
+
+.navbar .nav .dropdown-menu .dropdown-item:hover {
+  background-color: #636963;
+  color: #eae3ed;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: #dfd3dc;
+  color: #636963;
+}
+
+.dat:hover {
+  background-image: url(../Vector1.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Recursive", sans-serif;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  color: #eae3ed !important;
+  background-color: #636963 !important;
+  border-color: #dfd3dc !important;
+  font-family: "Roboto", sans-serif;
+}
+
+.less {
+  display: flex;
+  flex-direction: row;
+}
+
+.less .col .card {
+  margin-bottom: 20px;
+}
+
+.fa {
+  float: right;
+  font-size: 25px;
+  line-height: 2;
+}
+
+.card {
+  background-color: rgba(208, 175, 186, 0.1);
+}
